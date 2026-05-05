@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+form {
+  max-width: 500px;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
