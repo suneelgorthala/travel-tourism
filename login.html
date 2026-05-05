@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Travel & Tourism</title>
+  <link rel="stylesheet" href="Assets/CSS/style.css" />
+  <link rel="stylesheet" href="Assets/CSS/main.css" />
+</head>
+<body>
+  <div id="header-container">
+    <header>
+      <h1>Travel & Tourism</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="About Us/index.html">About Us</a>
+        <a href="Contactus/index.html">Contact Us</a>
+        <button type="button" id="logout-button" class="nav-logout hidden">Logout</button>
+      </nav>
+    </header>
+  </div>
+
+  <main class="section-hero">
+    <section class="auth-section">
+      <div class="auth-card">
+        <h2>Welcome back</h2>
+        <p>Log in to access your Travel & Tourism dashboard.</p>
+
+        <form id="login-form" class="auth-form">
+          <div class="form-group">
+            <label for="login-email">Email address</label>
+            <input id="login-email" type="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password</label>
+            <input id="login-password" type="password" name="password" required />
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn">Login</button>
+            <p>New here? <a class="form-link" href="signup.html">Create an account</a></p>
+          </div>
+          <p class="form-message" id="login-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-container">
+    <footer>
+      <p>&copy; 2026 Travel & Tourism. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="Assets/JS/auth.js"></script>
+</body>
+</html>
